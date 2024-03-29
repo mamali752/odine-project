@@ -1,3 +1,50 @@
+strong {color: #006178;
+    font-size: larger;
+ /*HEX color 
+    تشکیل شده از شش مشخصه و با مربع هم فراخوانی میشود*/
+}
+ol li{
+    color:hsl(250, 33%, 52%);
+
+}
+
 ul li {
+
     list-style: none;
+   
+}
+
+
+/* styles.css */
+
+.table {
+    font-size: large;
+    color:rgb(150,220, 60);
+    background-color:gray;
+  /*RGB
+  تشکیل شده از اعداد بین یک تا 255*/  
+}
+a:link{
+    color: purple;
+}
+a:visited{
+    color: green;
+}
+a:hover{
+    color: yellowgreen;
+}
+/*a یا a:link پیوندی که بازدید نشده است زیر خط دار و آبی است
+a:visited پیوندی که بازدید شده است زیر خط دار و بنفش است
+a:active پیوندی که فعال است زیر خط دار و قرمز است.( برای لحظه ای که روی لینک کلیک می کنیم.)
+a:hover برای حالتی که ماوس را روی لینک می بریم.
+*/
+
+
+.textalign {
+    text-align: center;
+}
+
+div p {
+    font-family: 'Courier New', Courier, monospace;
+    
 }

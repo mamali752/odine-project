@@ -7,12 +7,14 @@
         <title> My first Wrb page</title>
     </head>
     <body>
+        <div>
         <h1> Home page</h1>
    <h2>this is heading</h2>
    <h3>this is heading</h3>
    <h4>this is headin</h4>
    <h5>this is heading</h5>
    <h6>this is headig</h6>
+        </div>
    <ol>
     <li>
     number1
@@ -23,23 +25,45 @@
    <li>
     number 3
    </li>
-</ol>
-<ul style="list-style: none;">
+ </ol>
+ <ul style="list-style: none;">
   
        <li>
-        <a href="./asbolutelink.html"> absolute link</a>
+
+        <a href="./asbolutelink.html">
+         absolute link
+       <!-- تگ اینلاینی است تکس الاین روی ان تاثیر ندارد-->
+        </a>
        </li>
        <li>
-        <a href="./linkandimage.html">relative link </a>
-       </li>
+        <div class="textalign">
+        <a href="./linkandimage.html">relative link
+          <!--جهت تاثیر گذاری روی ان ان را درون یک کلاس تعریف میکنیم*--> </a>
+        </div>
+        </li>
 </ul>
+<div>
    <p><strong>ipsum dolor sit amet</strong> , consectetur adipiscing elit, sed do eiusmod tempor
 incididunt ut labore et dolore magna aliqua.</p>
 
 <p>Ut enim ad minim veniam, quis nostrud <em>exercitation</em> ullamco laboris
 nisi ut aliquip ex ea commodo consequat.</p>
+</div>  
 
-    </body>
+    <p class="table" >
+        Descendant combinator
+Combinators allow us to combine multiple selectors 
+differently than either grouping or chaining them,
+ as they show a relationship between the selectors
+    </p>
+    <h1> Home page</h1>
+    <h2>this is heading</h2>
+    <h3>this is heading</h3>
+    <!--زمانی که بخواهیم یک عنصرزDescendant combinator مثال برای
+      parrentفرزند که مشابه ان در سایر عناصر 
+     نیز وجود دارد اسفاده میشود -->
+
+</body>
 </html>
 <!-- learn how clne in sub branch-->
 <!-- git clone --branch <branchname><url>-->
@@ -47,3 +71,5 @@ nisi ut aliquip ex ea commodo consequat.</p>
 <!-- for emphsiz use <em>-->
 <!-- for important text use <strong>-->
 <!-- link to other html or css etc.. in <head> -->
+<!-- برای یک تگ میتوان همزمان از چند کلاس استفاده کرد -->
+<!--  قرار میدهیمspaceبرای استفاده همزمان از چند کلاس برای یک تگ بین کلاس ها -->
