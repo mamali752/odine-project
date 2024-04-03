@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ 
+    <head> 
+        <style>
+
+        </style>
+        <meta charset="UTF-8">
+        <link href="./style.css">
+        <title> My first Wrb page</title>
+    </head>
+
+<body>
+    <div id="div-id-1" class="div-class">
+        <div id="div-id-2" class="div-class">
+            <div id="div-id-3" class="div-class">
+ <p>Have you ever wounder about the benefit of <a href="https://www.healthline.com/nutrition/11-proven-benefits-of-olive-oil" target="_blank">olive oil</a> ? sure, it has 
+<strong> amazing</strong> health benefits when you eat it , but what else could it 
+be used for ?
+</p>
+<p class="p-class" id="p-id"> it turn out
+     olive can be used as part of yours <em>skincsre regimen</em>
+too. its not just for cocking any more!</p>
+</div>
+        </div>
+    </div>
+
+
+<h1 class="train">
+    <p >This is my heading.</p>
+</h1>
+</body>
+
+
+
+
+<!--
+
+
+
+
+#div-id {
+    color: black;
+
+}
+
+
+p{
+    color: rgb(25, 218, 19);
+    border: inherit;
+    border-style: dotted;
+
+    /* p inherit from div*/
+    /* borderstyle is the last so its applyed */
+    /* if borderstyle come first then bordr , border is applyed */}
+
+
+
+div{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 1.5;
+
+    color: #111214;
+    border: 4px solid black;
+    /* border doesnt inherit */
+    /* we hve to use for any tag or class who we want*/
+}
+em {
+    background-color:orange;
+    color: black;
+    border: inherit;
+    /* em inherit from p*/
+    /* if p dosnt have any border so em didnt have*/
+}
+
+a{
+    color:#0f0c0a;
+    /* dبه صورت پیش فرض رنگ لینک رو از چی گرفته است؟*/
+
+}
+a:hover{
+    all: inherit;
+    /*   تمام خصصوصیات رو از تمام والد های قبلی شامل پی دیو
+    به ارث میبره */
+    all: unset;
+    /*تمام خصوصیات رو از والد مستثیم خودش به ارث میبره فقط*/
+     all: revert;
+     /*همه چیز به تنظیمات مرورگر برمیگرده*/
+     all: initial;
+     /* ?? */
+
+
+}
+
+
+.train{
+    color: red;
+}
+
+
+h1{
+    color: brown;
+}
+
+
+
+-->
+
+
+<!--جلسه 10 سلکتور ها و اثر ان بر specifity
+    /*specifity: 0-0-1 */
+div{
+    padding: 2rem;
+    background-color: #fe6100;
+
+}
+/*specify:1-0-1*/
+div#div-id-3{
+    background-color: #dc267f;
+    padding: 4rem;
+}
+/*specifity: 0-1-0 */
+.div-class{
+    background-color: #fe6100;
+    padding: 2rem;
+}
+ /*specifity: 0-0-2 */
+ div div{
+    background-color: #ffb000;
+ padding: 3rem;
+ }
+/*specifity: 0-0-3 */
+div div div {
+ padding: 1rem;   background-color: #785fe0;
+
+}
+/*specifity:1-0-0*/
+#div-id-3{
+    background-color: #785fe0;
+    padding: 1rem;
+
+} 
+
+
+-->
+
+
+
+<!-- جلسه 12 تاثیر وراثت بر specifity
+
+/* specifity 0-0-1*/
+
+div {
+    color: #fe6100;
+
+} 
+
+
+/*میخواهیم رنگ نارنجی به همه اثر بگذارد*/
+
+div#div-id-1.div-class{
+    color: #fe6100;
+    /* هیچ اتفاقی نمیافتد*/
+    /*قوانین ارث بذی مانع میشود*/
+}
+
+/*راه حل مشکل بالا*/
+/*specifity 0-0-2*/ -->
