@@ -1,4 +1,4 @@
-.logo{
+/* .logo{
     position: relative;
 left: 200px;
 
@@ -97,5 +97,59 @@ display: block;
 
 .text1{
     columns: 2;
-    column-rule: 4px solid #fe5480;
+    column-rule: 4px solid #fe}
+/*  */
+
+
+body{
+    background-color: rgb(224, 224, 224);
+    margin:auto;
+    padding: auto;
+    
+}
+ #gray{
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 300px;
+    height: auto;
+    background-color: #fefefe;
+padding-left: 8px;
+padding-right: 8px;
+}
+    
+.card{ 
+   
+    padding: 8px;
+    background-color: aqua;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+
+}
+.content{
+    
+    background-color: aqua;
+    padding: 8px;
+    margin-top:8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.BIGb{
+    
+    text-align: center;
+    background-color: aqua;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+button{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 10px;
+    background-color: #fefefe;
+    padding: 4px 10px;
+    margin-bottom: 3px; ;
 }
