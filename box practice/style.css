@@ -1,0 +1,100 @@
+.logo{
+    position: relative;
+left: 200px;
+
+}
+
+
+.logo img{
+    width: 138px;
+    height: 108px;
+    padding: 0;
+    margin: 0;
+    border: 2px solid red;
+    vertical-align: bottom;
+}
+.headsub{
+    border: 2px solid red;
+    
+    vertical-align:middle;
+    font-size: 45px;
+}
+.logo{
+margin: 6px;
+    border: 2px solid red
+}
+span{
+    border: 2px solid red;
+    margin-left: 26px;
+}
+button{
+    margin: 8px;
+    border: 4px;
+    font-weight: bolder;
+    background-color: rgba(224, 221, 221, 0.589);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+}
+.logo1 img {
+  width: 135px;
+height: 145px;
+margin-left: 840px;
+margin-right: 640px;
+
+
+
+ 
+border: 2px solid red;
+
+}
+
+.logo1{
+    border: 2px solid red;
+
+}
+.logo2{
+    border: 2px solid red;
+    width: 335px;
+    height: 35px;
+    margin-left: 740px;
+    margin-right: 740px;
+margin-bottom: 4px;
+    
+    text-align: center;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.logo3{
+    width: 400px;
+    border: 2px solid red;
+       margin-left: 730px;
+       margin-right: 760px;
+       text-align: center;
+padding: auto;
+
+    }
+
+a.hover{ 
+    color: rgb(17, 19, 19);
+    
+
+}
+.li1{
+    columns: auto;
+    border: 2px solid red;
+
+}
+.li2{
+
+}
+h1{
+display: block;
+ 
+}
+
+.text1{
+    columns: 2;
+    column-rule: 4px solid #fe5480;
+}
